@@ -1,1 +1,1 @@
-This is a placeholder for licencing info
+This is a placeholder for licensing info
