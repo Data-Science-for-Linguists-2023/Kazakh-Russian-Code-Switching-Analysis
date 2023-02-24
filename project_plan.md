@@ -22,12 +22,7 @@ The primary goal is to count the frequency of code-switching within conversation
 
 - Creating an annotation scheme that can capture Kazakh and Russian morphology (+syntax?);
 
-- Choosing an appropriate annotation structure from the following options: 
-
--[1] Inline annotation of Plain Text; 
--[2] Inline XML;
--[3] Column-based annotations (offline);
--[4] Standoff and Hybrid Standoff Annotations (offline);
+- Choosing an appropriate annotation structure from the following options: Inline annotation of Plain Text; Inline XML; Column-based annotations (offline); Standoff and Hybrid Standoff Annotations (offline);
 	
 - Choosing annotation tools and annotating text files (50 conversations, tentative);
 
