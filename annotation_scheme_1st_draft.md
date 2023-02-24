@@ -14,14 +14,14 @@
 
 | 2 class         | CS_type tags – code-switching types                 |
 | --------------- | --------------------------------------------------- |
-|inter-sentential (1st utterance in Kaz and 2nd in Rus or vice-versa)|
+|inter-sentential | 1st utterance in Kaz and 2nd in Rus or vice-versa |
 | uttr            | utterance (since this is a spoken data)             |
-| intra-sentential |
+| intra-sentential | within one utterance |
 | disc            | discourse marker                                    |
 | phr             | phrase (a group of words)                           |
 | vp              | verbal phrase, Russian verb+Kazakh verbs+affixes    |
 | cls             | clause                                              |
-| intra-word (words that have an alternative in Kazakh)|
+| intra-word |words that have an alternative in Kazakh |
 | n               | noun                                                |
 | adj             | adjective                                           |
 | adv             | adverb                                              |
