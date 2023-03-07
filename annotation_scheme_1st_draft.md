@@ -32,7 +32,7 @@
 
 ### Basic format of code-switching tags:
 
-<u> lang = ‘kaz’|‘rus’ </u>  <br />
+<uttr lang = ‘kaz’|‘rus’> </uttr>  <br />
 <cs cs_type = 'inter-sent'|' intra-sent'|'intra-word' <br />
 disc = 'discourse marker' <br />
 phr = ‘phrase’ <br />
@@ -40,6 +40,6 @@ vp = ‘verbal phrase, Russian verb followed by Kazakh modal verbs and affixes�
 cls = ‘clause’ <br />
 morph = ‘Russian stem followed by Kazakh affixes’ <br />
 pos = ‘n’|’adj’|’adv’|’pn’|’conj’> <br />
-code-switching instance </cs>   <br />
+code-switching instance</cs>   <br />
 
 
