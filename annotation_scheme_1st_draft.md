@@ -40,6 +40,6 @@ vp = ‘verbal phrase, Russian verb followed by Kazakh modal verbs and affixes�
 cls = ‘clause’ <br />
 morph = ‘Russian stem followed by Kazakh affixes’ <br />
 pos = ‘n’|’adj’|’adv’|’pn’|’conj’> <br />
-code-switching instance</cs>   <br />
+code-switching instance</cs>  
 
 
