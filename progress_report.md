@@ -1,3 +1,16 @@
+# 2nd Progress Report
+
+3/21/2023
+
+Summary: Again keep it short (a screen-full), and provide links to related documents, including your Jupyter Notebook and other folders/documents.
+If you are including samples, make sure it’s within fair use. Document your sampling method and justification in progress report.
+Are you including some new data you created yourself, like annotation? Again, document it.
+
+Sharing scheme for the “found” portion of your data
+
+Licensing
+
+
 # 1st Progress Report
 
 2/23/2023
@@ -12,7 +25,7 @@ I got access to the above-mentioned dataset as a Pitt student through the univer
 
 
 
-## Preliminary Report
+# Preliminary Report
 
 2/12/2023
 
@@ -27,7 +40,7 @@ I got access to the above-mentioned dataset as a Pitt student through the univer
  
 - Initial LitReview results related to annotation types and structure:
 
-- [1] Ide, & Pustejovsky, J. (2017). Handbook of Linguistic Annotation (Ide & J. Pustejovsky, Eds.;   1st ed. 2017.). Springer Netherlands. https://doi.org/10.1007/978-94-024-0881-2
+1. Ide, & Pustejovsky, J. (2017). Handbook of Linguistic Annotation (Ide & J. Pustejovsky, Eds.;   1st ed. 2017.). Springer Netherlands. https://doi.org/10.1007/978-94-024-0881-2
 
 - main stages of linguistic annotation;
 
@@ -35,7 +48,7 @@ I got access to the above-mentioned dataset as a Pitt student through the univer
 
 - annotation types, structures, and specifics;
 
-- [2] Peirce, Gina (2016) Annotated sample of timed and untimed essays by heritage and second language learners from the Russian Learner Corpus of Academic Writing (RULEC). [Dataset]
+2. Peirce, Gina (2016) Annotated sample of timed and untimed essays by heritage and second language learners from the Russian Learner Corpus of Academic Writing (RULEC). [Dataset]
 
 - The author used oXygen XML Editor software and annotated all inflectional morphology errors 	on nouns, adjectives and determiners in the sample texts from RULEC; 
 

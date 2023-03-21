@@ -2,8 +2,8 @@
 
 | 1 tag   | Utterance - uttr                          |
 | ------- | ------------------------------------------- |
-| kaz     | Kazakh      |
-| rus     | Russian        |
+| kz     | Kazakh      |
+| rs     | Russian        |
 
 
 - adding this class helps to later calculate multilingual index, integration index, and L1-L2 ratio within dataset to describe code-switching type: 
@@ -12,7 +12,7 @@
 - syntactic integration level of code-switching fragments;
 
 
-| 2 tag           | Code-switching types - cs_type                 |
+| 2 tag           | Code-switching types - cs                |
 | --------------- | --------------------------------------------------- |
 |inter-sentential | 1st utterance in Kaz and 2nd in Rus or vice-versa |
 | uttr            | utterance (since this is a spoken data)             |
@@ -27,19 +27,20 @@
 | adv             | adverb                                              |
 | pn              | pronoun                                             |
 | conj            | conjunction                                         |
+| interj          | interjection                                        |
 | morph           | Russian stem (any POS) with Kazakh affixes          |
 
 
 ### Basic format of code-switching tags:
 
 <uttr lang = ‘kaz’|‘rus’> </uttr>  <br />
-<cs cs_type = 'inter-sent'|' intra-sent'|'intra-word' <br />
+<cs = 'inter-sent'|' intra-sent'|'intra-word' <br />
 disc = 'discourse marker' <br />
 phr = ‘phrase’ <br />
 vp = ‘verbal phrase, Russian verb followed by Kazakh modal verbs and affixes’ <br />
 cls = ‘clause’ <br />
 morph = ‘Russian stem followed by Kazakh affixes’ <br />
-pos = ‘n’|’adj’|’adv’|’pn’|’conj’> <br />
+pos = ‘n’|’adj’|’adv’|’pn’|’conj’|'interj'> <br />
 code-switching instance</cs>  
 
 
