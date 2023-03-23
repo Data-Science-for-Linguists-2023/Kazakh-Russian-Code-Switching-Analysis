@@ -8,7 +8,7 @@ Are you including some new data you created yourself, like annotation? Again, do
 
 The second portion of the project is focused on the annotation of text samples and the preliminary analysis of annotated samples. So far, fourteen (14) text files have been annotated using the [LabelBox platform](https://docs.labelbox.com/docs/overview). This platform allows to import data from any source and annotate various data types including images, video, text, documents, audio, medical imagery, and tiled imagery/geospatial data. For the project in focus I used text annotation tools of the platform and the annotation workflow looks like this:
 
-![Annotation workflow](annotation-workflow.png)
+![Annotation workflow](/Users/aidyn/Desktop/annotation-workflow.png)
 
 
 ## Sharing scheme for the “found” portion of your data
