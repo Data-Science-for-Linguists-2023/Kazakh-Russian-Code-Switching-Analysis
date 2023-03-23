@@ -2,13 +2,18 @@
 
 3/21/2023
 
-Summary: Again keep it short (a screen-full), and provide links to related documents, including your Jupyter Notebook and other folders/documents.
+## Summary: Again keep it short (a screen-full), and provide links to related documents, including your Jupyter Notebook and other folders/documents.
 If you are including samples, make sure it’s within fair use. Document your sampling method and justification in progress report.
 Are you including some new data you created yourself, like annotation? Again, document it.
 
-Sharing scheme for the “found” portion of your data
+The second portion of the project is focused on the annotation of text samples and the preliminary analysis of annotated samples. So far, fourteen (14) text files have been annotated using the [LabelBox platform](https://docs.labelbox.com/docs/overview). This platform allows to import data from any source and annotate various data types including images, video, text, documents, audio, medical imagery, and tiled imagery/geospatial data. For the project in focus I used text annotation tools of the platform and the annotation workflow looks like this:
 
-Licensing
+![Annotation workflow](annotation-workflow.jpeg)
+
+
+## Sharing scheme for the “found” portion of your data
+
+## Licensing
 
 
 # 1st Progress Report
