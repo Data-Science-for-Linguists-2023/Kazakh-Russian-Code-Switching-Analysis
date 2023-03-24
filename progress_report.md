@@ -2,18 +2,46 @@
 
 3/21/2023
 
-## Summary: Again keep it short (a screen-full), and provide links to related documents, including your Jupyter Notebook and other folders/documents.
-If you are including samples, make sure it’s within fair use. Document your sampling method and justification in progress report.
-Are you including some new data you created yourself, like annotation? Again, document it.
+## Summary
 
-The second portion of the project is focused on the annotation of text samples and the preliminary analysis of annotated samples. So far, fourteen (14) text files have been annotated using the [LabelBox platform](https://docs.labelbox.com/docs/overview). This platform allows to import data from any source and annotate various data types including images, video, text, documents, audio, medical imagery, and tiled imagery/geospatial data. For the project in focus I used text annotation tools of the platform and the annotation workflow looks like this:
+The second portion of the project is focused on (1) the annotation of text samples, (2) exporting annotations in a JSON file, and (3) the preliminary analysis. So far, fourteen (14) text files have been annotated using the [Labelbox platform](https://docs.labelbox.com/docs/overview). This platform allows to import data from any source and annotate various data types, including images, video, text, documents, audio, etc. For the project in focus, I used the text annotation feature of the platform, and the annotation workflow looks like this:
 
 ![Annotation workflow](screenshots/annotation-workflow.png)
 
+First, you create a dataset and upload text files for annotation; then, you need to create an ontology known as an annotation scheme; and finally, you generate a project where text samples can be annotated using the ontology. The annotation process looks like [this](https://labelbox.com/product/annotate/text/).
 
-## Sharing scheme for the “found” portion of your data
+The project overview on the Labelbox platform will look like this:
+
+![The project overview](/screenshots/labeling-progress.png)
+
+**Labeling progress:** This section provides a list of all statuses in a project and a count of data rows for each. It also provides a count of the issues. As can be seen from the picture, 13 annotations were done, and 1 file is waiting to be annotated.
+
+**Workflow tasks:** This lists all the tasks in the project including the Initial labeling task, Rework task, and all review steps. For the current project, I am playing the role of annotator and reviewer. Ideally, better to have a team to ensure annotation quality and work toward a gold standard.  Although I know Kazakh and Russian languages, some linguistic nuances could be addressed better if they were discussed collegially. This will be included in the final report as one of the limitations of the current project.  
+
+Also, in the project overview, the **annotation analytics** can be viewed, and you can see what tags and subtags are more common than others. I found this feature very helpful because you can get a sense of your data even in the early stage of your project.
+
+![Analytics view](/screenshots/annotation-analytics.png)
+
+For each feature, you can see the following:
+
+- Name of the tag;
+- Count of data rows that contain the tag;
+- %Share indicating the percentage of data rows that contain the tag;
+- Horizontal bar chart that depicts the share and also allows you to click through into a filtered view of the data rows tab that contains only the data rows that contain the relevant feature.
+
+You can learn more about Labelbox features [here](https://docs.labelbox.com/docs/overview).
+
+Next, I exported the annotated samples and explored their structure on [JNB](). The labelbox platform renders the output as a JSON file and a good amount of time was spent exploring this format. Therefore, first, I worked with a small sample (2 annotated files) to get to know the data and then uploaded and analyzed the bigger sample. Detailed comments and observations on the dataset can be found throughout the notebook. 
+
+Finally, I carried out the preliminary analysis of the annotated data. As for now,  intra-word code-switching is more common than intra-sent and inter-sent code-switching types. More details can be found in the Summary section of the notebook. 
+
+## Data Sharing 
+
+The exported json files can be found [here](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/tree/main/annotated-data-samples). Since I am working with a standoff annotation (offline) format (meaning annotations are stored separately from the annotated text) I decided to share the annotated data. However, these files contain only categorical and numerical values like the code-switching tags and subtags and their positions in the text. The API key can be used to map annotations to the text. For security purposes, the API key will be used locally only (as of now). For the future, I need to find a way to 'hide' my API key so GitHub won't render it whenever I push the notebook.  
 
 ## Licensing
+
+I will be using Non-Software License [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) since I will be sharing a dataset. 
 
 
 # 1st Progress Report
@@ -47,17 +75,17 @@ I got access to the above-mentioned dataset as a Pitt student through the univer
 
 1. Ide, & Pustejovsky, J. (2017). Handbook of Linguistic Annotation (Ide & J. Pustejovsky, Eds.;   1st ed. 2017.). Springer Netherlands. https://doi.org/10.1007/978-94-024-0881-2
 
-- main stages of linguistic annotation;
+	- main stages of linguistic annotation;
 
-- [MATTER cycle of linguistic annotation];
+	- [MATTER cycle of linguistic annotation];
 
-- annotation types, structures, and specifics;
+	- annotation types, structures, and specifics;
 
 2. Peirce, Gina (2016) Annotated sample of timed and untimed essays by heritage and second language learners from the Russian Learner Corpus of Academic Writing (RULEC). [Dataset]
 
-- The author used oXygen XML Editor software and annotated all inflectional morphology errors 	on nouns, adjectives and determiners in the sample texts from RULEC; 
+	- The author used oXygen XML Editor software and annotated all inflectional morphology errors 	on nouns, adjectives and determiners in the sample texts from RULEC; 
 
-- Dataset of the article includes an annotation scheme;
+	- Dataset of the article includes an annotation scheme;
 
 
 
