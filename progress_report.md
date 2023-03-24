@@ -8,7 +8,7 @@ The second portion of the project is focused on (1) the annotation of text sampl
 
 ![Annotation workflow](screenshots/annotation-workflow.png)
 
-First, you create a dataset and upload text files for annotation; then, you need to create an ontology known as an annotation scheme; and finally, you generate a project where text samples can be annotated using the ontology. The annotation process looks like [this](https://labelbox.com/product/annotate/text/).
+First, you create a dataset and upload text files for annotation; then, you need to create an ontology known as an [annotation scheme](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/annotated-data-samples/annotation_scheme_1st_draft.md); and finally, you generate a project where text samples can be annotated using the ontology. The annotation process looks like [this](https://labelbox.com/product/annotate/text/).
 
 The project overview on the Labelbox platform will look like this:
 
@@ -33,7 +33,7 @@ You can learn more about Labelbox features [here](https://docs.labelbox.com/docs
 
 Next, I exported the annotated samples and explored their structure on [JNB](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotatedDataset.ipynb). The labelbox platform renders the output as a JSON file and a good amount of time was spent exploring this format. Therefore, first, I worked with a small sample (2 annotated files) to get to know the data and then uploaded and analyzed the bigger sample. Detailed comments and observations on the dataset can be found throughout the notebook. 
 
-Finally, I carried out the preliminary analysis of the annotated data. As for now,  intra-word code-switching is more common than intra-sent and inter-sent code-switching types. More details can be found in the Summary section of the notebook. 
+Finally, I carried out the preliminary analysis of the annotated data. As for now,  intra-word code-switching is more common than intra-sentential and inter-sentential code-switching types. More details can be found in the Summary section of the notebook. 
 
 ## Data Sharing 
 
@@ -50,7 +50,7 @@ I will be using Non-Software License [CC-BY-4.0](https://choosealicense.com/lice
 
 ## Data 
 
-To proceed with the term project, the dataset was chosen and integrated into [JNB](http://localhost:8888/notebooks/Documents/Data_Science/Kazakh-Russian-Code-Switching-Analysis/Kaz-Rus-code-switching-dataset.ipynb#References:). The first dataset samples were elicited from the target [IARPA Babel Kazakh Language Pack](https://catalog.ldc.upenn.edu/LDC2018S13). For now, the first data sample consists of 400 text files and metadata  for further EDA. To analyze code-switching instances, the first draft of annotation scheme was developed based on [Dyachkov et al.(2020)](https://www.dialog-21.ru/media/5085/dyachkovvvplusetal-101.pdf) project who annotated and analyzed code-switching in four corpora of minority languages of Russia. The first attempt was made to annotate one text file on [LightTag](https://www.lighttag.io/). However, there are some technical nuances that will be discussed with course instructors in order to ensure the annotation quality. 
+To proceed with the term project, the dataset was chosen and integrated into [JNB](http://localhost:8888/notebooks/Documents/Data_Science/Kazakh-Russian-Code-Switching-Analysis/Kaz-Rus-code-switching-dataset.ipynb#References:). The first dataset samples were elicited from the target [IARPA Babel Kazakh Language Pack](https://catalog.ldc.upenn.edu/LDC2018S13). For now, the first data sample consists of 400 text files and metadata  for further EDA. To analyze code-switching instances, the first draft of [annotation scheme](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/annotated-data-samples/annotation_scheme_1st_draft.md) was developed based on [Dyachkov et al.(2020)](https://www.dialog-21.ru/media/5085/dyachkovvvplusetal-101.pdf) who annotated and analyzed code-switching in four corpora of minority languages of Russia. The first attempt was made to annotate one text file on [LightTag](https://www.lighttag.io/). However, there are some technical nuances that will be discussed with course instructors in order to ensure the annotation quality. 
 
 ## Data Sharing
 
