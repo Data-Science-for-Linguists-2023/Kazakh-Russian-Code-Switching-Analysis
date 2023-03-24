@@ -31,7 +31,7 @@ For each feature, you can see the following:
 
 You can learn more about Labelbox features [here](https://docs.labelbox.com/docs/overview).
 
-Next, I exported the annotated samples and explored their structure on [JNB](). The labelbox platform renders the output as a JSON file and a good amount of time was spent exploring this format. Therefore, first, I worked with a small sample (2 annotated files) to get to know the data and then uploaded and analyzed the bigger sample. Detailed comments and observations on the dataset can be found throughout the notebook. 
+Next, I exported the annotated samples and explored their structure on [JNB](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotatedDataset.ipynb). The labelbox platform renders the output as a JSON file and a good amount of time was spent exploring this format. Therefore, first, I worked with a small sample (2 annotated files) to get to know the data and then uploaded and analyzed the bigger sample. Detailed comments and observations on the dataset can be found throughout the notebook. 
 
 Finally, I carried out the preliminary analysis of the annotated data. As for now,  intra-word code-switching is more common than intra-sent and inter-sent code-switching types. More details can be found in the Summary section of the notebook. 
 
@@ -41,7 +41,7 @@ The exported json files can be found [here](https://github.com/Data-Science-for-
 
 ## Licensing
 
-I will be using Non-Software License [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) since I will be sharing a dataset. 
+I will be using Non-Software License [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) since I will be sharing an annotated dataset. 
 
 
 # 1st Progress Report
