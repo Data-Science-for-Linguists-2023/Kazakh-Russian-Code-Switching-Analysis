@@ -1,3 +1,18 @@
+
+# 3rd Progress Report
+
+4/9/2023
+
+## Summary
+
+The third progress report is focused on annotating the text samples and updating the annotation scheme. As for now, 40 text samples were annotated, and they can be found [here]() in a JSON format. Initially, I planned to annotate 50 samples. I hope to achieve this milestone for the next presentation part of the project. Annotating and reviewing text files take considerable time; therefore,  I haven't started the data analysis part yet. The goal is to finalize the analysis before the presentation date. Previous preliminary analysis can be found [here](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotatedDataset.ipynb).
+
+Also, the [annotation scheme]() was updated to incorporate recent observations. For example, for intra-word tagging, verbs (vb), particles (part), and other subtags were added since text samples contain many instances of these linguistic units. 
+
+Finally, a stand-alone Markdown file was created as a placeholder (for now) to illustrate/document the annotation process for those interested in replicating the code-switching project. 
+
+
+
 # 2nd Progress Report
 
 3/21/2023
@@ -42,6 +57,7 @@ The exported json files can be found [here](https://github.com/Data-Science-for-
 ## Licensing
 
 I will be using Non-Software License [CC-BY-4.0](https://choosealicense.com/licenses/cc-by-4.0/) since I will be sharing an annotated dataset. 
+
 
 
 # 1st Progress Report
