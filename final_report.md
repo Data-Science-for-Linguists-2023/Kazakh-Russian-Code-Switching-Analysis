@@ -74,8 +74,9 @@ Following Dyachkov et al.(2020) experiment, I calculated the overall ratio of in
 According to Dyachkov et al.(2020), the use of interconnected language elements is commonly seen during a language shift, whereas separate language elements are typical of a situation where balanced bilingualism is maintained. Overall, the ratio of integrated and non-integrated elements show mixed trend since the difference is not as significant as was observed in four corpora of minority languages of Russia. 
 
 <div align="center">
-    <img src="/syn_integration.png">
+    <img src="screenshots/syn_integration.png">
 </div>
+
 
 ## Conclusion
 
