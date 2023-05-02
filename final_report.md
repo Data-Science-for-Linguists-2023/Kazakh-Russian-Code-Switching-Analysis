@@ -48,37 +48,53 @@ Russian stems are highly integrated into the clause structure so they behave lik
 
 - Example 1:
 
-	> продавец+ке           бар         шығар  орын
-
-	> seller.Rus.+DAT.Kaz  [there is]   might  position
-
+	> **продавец**+ке           бар         шығар  орын
+	>
+	> **seller.Rus**+DAT.Kaz   [there is]   might  position
+	>
 	> *There is might be a position for a seller.*
 
 - Example 2:
 
-	> апайдың       настроение+сі+не           байланысты дейсің ғой
-
-	> teacher.GEN   mood.Rus+poss.Kaz+DAT.Kaz  depend     say    well
-
+	> апайдың       **настроение**+сі+не           байланысты дейсің ғой
+	>
+	> teacher.GEN   **mood.Rus**+poss.Kaz+DAT.Kaz  depend     say    well
+	>
 	> *Well, it depends on teacher's mood.* 
 
 In contrary, single word insertions are not syntactically integrated and can be readily replaced by Kazakh equivalents. It is noteworthy that for the project in focus, Russian loan words were excluded and only insertions that have alternatives in Kazakh were annotated. Interestingly, speakers tend to use both Russian and Kazakh variations of the word in one utterence. For instance:
 
+- Example 3:
 
-> поняла          ұқтың            ба
+	> **поняла**          ұқтың            ба
+	>
+	> **understand.Rus**  understand.Kaz   part.Kaz
+	>
+	> *Do (you) understand?*
 
-> understand.Rus  understand.Kaz   part.Kaz
+- Example 4:
 
-> *Do you understand?*
+	> барамыз   ғой   тағы      **ещё**
+	>
+	> come.Fut  well  again.Kaz  **again.Rus**
+	> 
+	> *Well, we will come again.* 
 
+- Example 5:
 
-> барамыз ғой тағы ещё
+	> **может**     мартта мүмкін    тағы  келерміз біздер
+	> 
+	> **maybe.Rus** March  maybe.Kaz again come.Fut we
+	>
+	> *Maybe we will come again in March.*
 
-> может мартта мүмкін тағы келерміз біздер
+- Example 6:
 
-> иә ауылдан мамам шешем келді
-
-> хорошо хорошо жарайды жарайды
+	> **хорошо хорошо** жарайды жарайды
+	> 
+	> *fine.Rus*.       fine.Kaz
+	>
+	> *Fine.*
 
 Why speakers of Kazakh go back and forth between two languages in intra-word CS and how this phenomenon is related to imbalanced bilingualism requires further in-depth investigation. 
 
@@ -88,15 +104,30 @@ Why speakers of Kazakh go back and forth between two languages in intra-word CS 
 
 Among intra-sentential CS verbal phrases and other types of phrases (NP, AdvP, AdjP) are also morphosyntactically embedded into the Kazakh sentence as shown below:
 
-> Қуаныш ағаңды поздравить еттің бе подполковник алды ғой
+- Example 7:
 
-> басыңды жалаң бас жүрме басыңа суық өткізесің сосын кейін грипповать етіп қаласың ауырып
+	> Қуаныш         ағаңды    **поздравить**       еттің      бе    подполковник        алды    ғой
+	>
+	> Kuansysh.name  uncle.ACC **congratulate.Rus** modal.verb parț. lieutenant colonel received part.   >
+	> *Have you congratulated uncle Kuansysh with receiving the rank of lieutenant colonel.*
 
-> көп телефонмен болтать етуге болмайды
+- Example 8:
 
-> звондап жатырсың
+	> көп телефонмен **болтать**   етуге      болмайды
+	>
+	> long phone.INST **chat.Rus** modal.verb do not
+	> 
+	> *Avoid prolonged conversations on the phone.*
 
-The main Russian verbs *поздравить-congratulate, грипповать-have the flu, болтать-to chat* are followed by Kazakh modal verbs and form the predicative phrase of the clause while the Russian stem *звон-call* is marked with Kazakh verb inflections (-дап) and followed by the modal verb (жатырсың). 
+- Example 9:
+
+	> **звон**+дап             жатырсың
+	>
+	> **call.Rus**+Kaz.suffix  modal.verb.2PS
+	>
+	> *(You) are calling.*
+
+The main Russian verbs *поздравить-congratulate, болтать-to chat* are followed by Kazakh modal verbs and form the predicative phrase of the clause while the Russian stem *звон-call* is marked with Kazakh verb inflections (-дап) and followed by the modal verb (жатырсың). 
 Following Dyachkov et al.(2020) experiment, I calculated the overall ratio of integrated and non-integrated elements by collapsing the structural types of CS and considering individual elements as integrated or non-integrated depending on their morphosyntactic role in the sentence. For example, elements that are marked with Kazakh affixes and/or followed by modalities are deemed as integrated while single word Russian insertions are deemed as non-integrated as shown on the table below.  
 
 <div align="center">
@@ -109,10 +140,15 @@ According to Dyachkov et al.(2020), the use of interconnected language elements 
     <img src="screenshots/syn_integration.png">
 </div>
 
+Another fact that accounts for imbalanced bilingualism is that some noun phrases do not match in gender as in Russian a preceding adjective should align in gender with a proceding noun. For instance, the speakers frequently use the following mismatched adjectives and nouns: *высш**ий** (masculine) образование(neuter) юридическ**ий** (masculine), военн**ый** (masculine) кафедра* (feminine). Morphologically correct forms are: высш**eе** образование юридическ**oе** - all elements are marked with neutral endings, военн**ая** кафедра - both elements are marked with feminine endings. 
+
+## Limitations
+
+Despite convincing preliminary results, there are several limitations that should be addressed. First, I annotated and reviewed the dataset on my own meaning an annotator bias might have taken place during this sole project. Better to have an annotation team to ensure the quality and address language specific nuances respectively. Second, all annotation has been done manually limiting the the project efficiency. For future replication of the project automated or semi-automated annotation process is preferred. Third, the sample size is very limited since only 50 conversations were annotated which might, in turn, led to partial rather than complete results.  Last but not least, the lack of information regarding educational background of speakers might also affect my observations. Namely, I do not know if the speakers are simultaneous or sequential bilinguals and wether they studied in Kazakh or Russian schools. Having mix of subjects from both groups(simultaneous/ sequential bilinguals)/schools (Kazakh/Russian) might have led to different results.   
 
 ## Conclusion
 
-In conclusion, the analysis of the data shows that code-switching to Russian is present in a significant portion of the annotated utterances, with the most common type being intra-word code-switching. This type of code-switching mainly consists of Russian morphemes, adverbs, and nouns integrated into the Kazakh language. Intra-sentential code-switching is the second most common type, with verbal phrases and discourse markers being the most frequent linguistic elements used. It is worth noting that most of the code-switching instances are syntactically integrated into the Kazakh language. These findings shed light on the nature of code-switching in the Kazakh-Russian bilingual context and contribute to a better understanding of the linguistic dynamics of this community.
+In conclusion, despite the above-mentioned limitations, the analysis of the data shows that code-switching to Russian is present in a significant portion of the annotated utterances, with the most common type being intra-word code-switching. This type of code-switching mainly consists of Russian morphemes, adverbs, and nouns integrated into the Kazakh language. Intra-sentential code-switching is the second most common type, with verbal phrases and discourse markers being the most frequent linguistic elements used. It is worth noting that most of the code-switching instances are syntactically integrated into the Kazakh language. These findings shed light on the nature of code-switching in the Kazakh-Russian bilingual context and contribute to a better understanding of the linguistic dynamics of this community.
 
 
 ## Process Reflection
@@ -137,5 +173,6 @@ Peirce, Gina M. (2018) Representational and processing constraints on the acquis
 Yessenbayev, Z., Kozhirbayev, Z., & Makazhanov, A. (2020). KazNLP: A Pipeline for Automated Processing of Texts Written in Kazakh Language. Paper presented at the Speech and Computer - 22nd International Conference, SPECOM 2020, Proceedings, Russian Federation.
 
 
+## Abbreviations
 
-
+Kaz - Kazakh, Rus - Russian, ACC — accusative, GEN — genitive, DAT - Dative, INST - instrumental, part —particle, 2PS —2nd person, poss. - possessive suffix, Fut - future suffix, modal.verb - modal verb. 
