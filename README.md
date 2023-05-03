@@ -9,8 +9,7 @@ Completed February 12, 2023 through May 3, 2023.
 
 This term project aims to carry out an explanatory analysis of Kazakh-Russian CS based on the conversational dataset and investigate structural and syntactic types of CS through **linguistic annotation**. The questions in focus are whether Kazakh-Russian bilingualism is balanced and whether the language shift is happening toward L2 Russian.
 
-
-	> You can find my guestbook [here](https://github.com/Data-Science-for-Linguists-2023/Class-Lounge/blob/main/guestbooks/moldir.md)
+- You can find my guestbook [here](https://github.com/Data-Science-for-Linguists-2023/Class-Lounge/blob/main/guestbooks/moldir.md)
 
 
 ## Data
@@ -25,13 +24,13 @@ The data sources utilized in this project are sourced from the IARPA Babel Progr
 
 	- Datasets comparison: [github](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/datasetsComparison.ipynb) | [nbviewer](https://nbviewer.org/github/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/datasetsComparison.ipynb)
 	- Annotated dataset: [github](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotatedDataset.ipynb) | [nbviewer](https://nbviewer.org/github/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotatedDataset.ipynb)
-	- Annotation analysis: [github](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotationAnalysis.ipynb)| [nbviewer](https://nbviewer.org/github/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/be7a7094bc6ef79c342b349b0674fc5f9cba458b/notebooks/annotationAnalysis.ipynb#Parsing-JSON-files)
+	- Annotation analysis: [github](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/notebooks/annotationAnalysis.ipynb) | [nbviewer](https://nbviewer.org/github/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/be7a7094bc6ef79c342b349b0674fc5f9cba458b/notebooks/annotationAnalysis.ipynb#Parsing-JSON-files)
 
 - [annotated-data-samples](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/tree/main/annotated-data-samples) contains JSON files utilized throughout the project, an annotation scheme, and the annotation project overview.
 
 - [screenshots](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/tree/main/screenshots) is the folder containing all visualizations generated throughout this project.
 
-- [CS_analysis.pdf] is a copy of the presentation.
+- [CS_analysis.pdf](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/CS_analysis.pdf) is a copy of the presentation.
 
 - [progress_report](https://github.com/Data-Science-for-Linguists-2023/Kazakh-Russian-Code-Switching-Analysis/blob/main/progress_report.md) details progress made on this project throughout the semester.
 
