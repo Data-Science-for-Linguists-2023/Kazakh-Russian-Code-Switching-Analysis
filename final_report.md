@@ -62,7 +62,7 @@ Russian stems are highly integrated into the clause structure so they behave lik
 	>
 	> *Well, it depends on teacher's mood.* 
 
-On the contrary, single-word insertions are not syntactically integrated and can be readily replaced by Kazakh equivalents. It should be noted that for the project in focus, Russian loan words were excluded, and only words that have alternatives in Kazakh were annotated. Interestingly, speakers tend to use both Russian and Kazakh variations of the word in one utterance. For instance:
+On the contrary, Russian single-word insertions are not syntactically integrated and can be readily replaced by Kazakh equivalents. It should be noted that for the project in focus, Russian loan words were excluded, and only words that have alternatives in Kazakh were annotated. Interestingly, speakers tend to use both Russian and Kazakh variations of the word in one utterance. For instance:
 
 - Example 3:
 
